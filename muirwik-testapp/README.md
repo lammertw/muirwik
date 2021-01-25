@@ -16,17 +16,15 @@ then the following should work (possibly may also need npm installed):
 
     git clone https://github.com/cfnz/muirwik.git
     cd muirwik
-    ./gradlew :muirwik-testapp:yarn
     ./gradlew :muirwik-testapp:build
-    ./gradlew :muirwik-testapp:runServerOpenBrowser
+    ./gradlew :muirwik-testapp:browserDevelopmentRun
 
 In Windows it is probably (but have not tried it) more like:
 
     git clone https://github.com/cfnz/muirwik.git
     cd muirwik/muirwik-testapp
-    gradlew.bat :muirwik-testapp:yarn
     gradlew.bat :muirwik-testapp:build
-    gradlew.bat :muirwik-testapp:runServerOpenBrowser
+    gradlew.bat :muirwik-testapp:browserDevelopmentRun
 
 ## Contributing
 Feedback and contributions are welcome :-). 
